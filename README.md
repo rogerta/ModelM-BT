@@ -33,7 +33,7 @@ If I were to do this again, I'd make the following changes:
 
 Schematic
 ---------
-![Schematic](https://plus.google.com/u/0/photos/+RogerTawa/albums/6134379641493379793/6141875861268645266?pid=6141875861268645266&oid=110747475977701798390)
+![Schematic](https://github.com/rogerta/ModelM-BT/blob/master/ModelM.png)
 
 Special Features
 ----------------
