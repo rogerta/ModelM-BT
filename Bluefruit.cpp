@@ -4,13 +4,6 @@
 
 #define numberof(a) (sizeof(a)/sizeof((a)[0]))
 
-namespace {
-
-PROGMEM static const prog_char mouseHeader[3] = {0xFD, 0x00, 0x03};
-
-}  // namespace
-
-
 void Bluefruit::sendKeyboardReport(const PS2KeyboardManager::Report& report) {
   write(0xFD);
   write(report.modifiers);

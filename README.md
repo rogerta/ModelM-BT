@@ -1,3 +1,5 @@
+ModelM-BT
+---------
 ModelM-BT is an [Arduino sketch](http://www.arduino.cc/en/Tutorial/Sketch) used to bluetooth-enable an old [IBM Model M keyboard](http://en.wikipedia.org/wiki/Model_M_keyboard).  It is based on an original idea described at [Adafruit's website](https://learn.adafruit.com/convert-your-model-m-keyboard-to-bluetooth-with-bluefruit-ez-key-hid).
 
 The original project's code is based on a hacked and incomplete version of [TMK Keyboard Firmware](http://github.com/tmk/tmk_keyboard) and it's **huge**!  So I decided to write my own code with the following properties:

@@ -7,14 +7,6 @@
 
 class Bluefruit : public AltSoftSerial {
  public:
-  enum Button {
-    B_LEFT = 1 << 0,
-    B_RIGHT = 1 << 1,
-    B_MIDDLE = 1 << 2,
-    B_BACK = 1 << 3,
-    B_FORWARD = 1 << 4,
-  };
-
   void sendKeyboardReport(const PS2KeyboardManager::Report& report);
 };
 
