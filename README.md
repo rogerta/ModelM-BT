@@ -33,7 +33,13 @@ If I were to do this again, I'd make the following changes:
 
 Schematic
 ---------
+![Schematic](https://plus.google.com/u/0/photos/+RogerTawa/albums/6134379641493379793/6141875861268645266?pid=6141875861268645266&oid=110747475977701798390)
 
+Special Features
+----------------
+Because Model M keyboard were built long before the Windows key was added to keyboards, this sketch remaps the Caps Lock key as a Windows key.  To get a real Caps Lock, press ALT+CapsLock.
+
+Hold ALT+KeypadMinus down for five seconds to pair the keyboard with a computer.  The pairing will be remembered until the keyboard is re-paired.  Tested with Windows 7, MacOS 10.10.3, Ubuntu 14.04, and Android Lollipop.
 
 Building
 --------
