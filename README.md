@@ -20,7 +20,7 @@ BOM
 The following hardware components were used to build this project:
 
 1. A old Model-M keyboard (thanks [Stef](https://plus.google.com/u/0/+StefanoLandi/posts)!)
-2. [OSEPP nano](http://osepp.com/products/arduino-compatible-boards/osepp-nano-arduino-compatible/), Arduino Nano compatible
+2. [OSEPP Nano](http://osepp.com/products/arduino-compatible-boards/osepp-nano-arduino-compatible/), Arduino Nano compatible
 3. Adafruit [Bluefruit EZ-Key](https://www.adafruit.com/product/1535)
 4. Adafruit [PowerBoost 500c](https://www.adafruit.com/product/1944)
 5. Adafruit [Lithium ion polymer battery](https://www.adafruit.com/product/328)
@@ -30,6 +30,7 @@ If I were to do this again, I'd make the following changes:
 
 1. Use an [Arduino Pro Mini](http://www.arduino.cc/en/Main/ArduinoBoardProMini) board, to make the modified keyboard as power efficient as possible.  While the OSEPP is great for prototyping, it has too many unneeded components like voltage regulators, USB circuitry, and extra LEDs for a production device.
 2. Use a 3.3V Arduino rather than a 5V part.  Not only would this use less power, it would obviate the need for the resistors to connect the Arduino to the Bluefruit.
+3. Put the PowerBoost 500c micro USB port much closer to the outer casing so that it would be easier to plug in for recharging.
 
 Schematic
 ---------
@@ -40,6 +41,8 @@ Special Features
 Because Model M keyboard were built long before the Windows key was added to keyboards, this sketch remaps the Caps Lock key as a Windows key.  To get a real Caps Lock, press ALT+CapsLock.
 
 Hold ALT+KeypadMinus down for five seconds to pair the keyboard with a computer.  The pairing will be remembered until the keyboard is re-paired.  Tested with Windows 7, MacOS 10.10.3, Ubuntu 14.04, and Android Lollipop.
+
+This project uses a rechargeable battery, so I never need to open it up.  It only lasts 13+ hours on a single charge though, so it needs to be plugged in every day.
 
 Building
 --------
