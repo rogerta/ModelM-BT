@@ -42,7 +42,7 @@ Because Model M keyboard were built long before the Windows key was added to key
 
 Hold ALT+KeypadMinus down for five seconds to pair the keyboard with a computer.  The pairing will be remembered until the keyboard is re-paired.  Tested with Windows 7, MacOS 10.10.3, Ubuntu 14.04, and Android Lollipop.
 
-This project uses a rechargeable battery, so I never need to open it up.  It only lasts 13+ hours on a single charge though, so it needs to be plugged in every day.
+This project uses a rechargeable battery, so I never need to open up the keyboard to change batteries.  The keyboard only lasts 13+ hours on a single charge though, so it needs to be plugged in every day.
 
 Building
 --------
